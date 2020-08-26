@@ -32,7 +32,7 @@ TEST(test, add2) {
 }
 
 TEST(test, add3) {
-	for (size_t i = 0; i < 100; i++)
+	for (int i = 0; i < 100; i++)
 	{
 		EXPECT_EQ(add(i, 4), 7);	//==
 	}
